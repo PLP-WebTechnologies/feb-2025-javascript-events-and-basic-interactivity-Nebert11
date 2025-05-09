@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS-Events</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        
+        <h1>Welcome to Js Events Testing Page</h1>
+
+        <!-- Event Handling Elements -->
+        <button id="btn">Click Here</button>
+        <div id="hoverDiv" style="width: 200px;
+            height: 100px;
+            background-color: #ccc;
+            margin-top: 10px;
+            text-align: center;
+            line-height: 100px;">Hover Me</div>
+
+        <button id="secretBtn" 
+            style="margin-top: 10px;">Double Click Here</button>
+        <!-- Interactive Elements -->
+        <h1>Interactive Button</h1>
+        <button id="colorbtn">Change Color</button>
+
+        <h2>Image Gallery</h2>
+        <div class="gallery">
+            <img src="image1.jpeg" alt="">
+            <img src="image2.webp" alt="">
+        </div>
+
+        <h2>Tabs</h2>
+        <div class="tabs">
+            <button class="tab" data-tab="1">Tab 1</button>
+            <button class="tab" data-tab="2">Tab 2</button>
+        </div>
+
+        <div class="tab-content" id="tab-1">Tab 1 Content</div>
+        <div class="tab-content" id="tab-2">Tab 2 Content</div>
+
+        <!-- Form Validation Elements -->
+        <h2>Validation Form</h2>
+        <form id="myForm">
+            <input type="text" id="name" placeholder="Name" required/> 
+            <input type="email" id="email" placeholder="Email" required/> 
+            <input type="password" id="password" placeholder="Password" required/>
+            <button type="submit">Submit</button>
+            <p id="feedback"></p>
+        </form>
+
+    <script src="script.js" ></script>
+    </body>
+</html>
